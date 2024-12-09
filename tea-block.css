@@ -10,7 +10,7 @@
 
 }
 
-.title {}
+/* .title {} */
 
 .cards {
     display: flex;
@@ -31,10 +31,10 @@
 
     /* flex: 1 1 47%; */
 }
-
+/* 
 .card img {
     /* margin-right: 20px; */
-}
+
 
 .card-info {
     display: flex;

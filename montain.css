@@ -1,0 +1,21 @@
+.montain{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    outline: 3px solid blue;
+    background-image: url("images/Rectangle\ 75.png");
+    background-color: linear-gradient(white, grey);
+}
+.title-m{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    color: #fff;
+}
+.subtitle-m{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
