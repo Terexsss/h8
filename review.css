@@ -1,0 +1,12 @@
+.review {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    outline: 3px solid blue;
+
+}
+.rev {
+    
+        display: flex;
+        flex-direction: column;}
+    

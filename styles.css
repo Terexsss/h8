@@ -56,3 +56,24 @@ body {
     line-height: 1;
     font-family: "Cormorant";
 }
+.teamenu{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    outline: 3px solid blue;
+    display: flex; 
+}
+.tea{
+    
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 58px;
+    margin-bottom: 60px; 
+}
+
+.qoute{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    outline: 3px solid blue; 
+}
