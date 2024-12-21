@@ -1,13 +1,7 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		},
-		{
-			"path": "../../../Downloads/tea-site"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Frontend"
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
