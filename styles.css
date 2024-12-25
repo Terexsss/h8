@@ -5,7 +5,7 @@
 /* @import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap"); */
 @import url("https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -63,7 +63,7 @@ body {
 
 /* Header styles */
 header {
-    padding: 1rem;
+    padding: 3rem;
     background: white;
     position: sticky;
     top: 0;
@@ -75,45 +75,52 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
+    height: 142px;
     margin: 0 auto;
+    font-size: 25px;
+    font-family: "Open Sans";
 }
 
 .logo img {
-    height: 100px;
+    height: 105px;
 }
 
 .nav-links {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #333;
 }
+.sign{
+    font-size: 25px;
+}
 
 /* Hero section */
 .hero {
     position: relative;
-    height: 60vh;
+    height: 500px;
     background-image: url(images/Group\ 91.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: end;
     /* justify-content: center; */
-    max-width: 1599px;
+    max-width: 1600px;
     color: white;
+    margin: auto;
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 790px;
     padding: 2rem;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 58px;
+    margin-bottom: 2rem;
 }
 
 /* Quote section */
@@ -122,6 +129,8 @@ header {
     padding: 4rem 1rem;
     font-style: italic;
     color: #666;
+    font-size: 40px;
+    max-width: 704px;
 }
 
 /* Collections section */
@@ -172,6 +181,7 @@ header {
     padding: 2rem;
     /* background: white; */
     border-radius: 8px;
+    max-width: 280px;
 }
 .testimonials h2{
     text-align: center;
@@ -304,3 +314,35 @@ footer {
     gap: 1rem;
     margin-top: 1rem;
 }
+
+
+  .footer-div {
+    font-style: italic;
+    margin: 0;
+    padding-left: 10px;
+    border-left: 4px solid #ccc;
+    color: #555;
+  }
+  
+ 
+  .contact {
+    display: contents;
+    margin-bottom: 5px;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    text-align: center;
+    margin-top: 30px;
+  
+    padding-top: 20px;
+  }
